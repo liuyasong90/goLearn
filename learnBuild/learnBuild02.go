@@ -1,8 +1,8 @@
-package learnBuild
+package main
 
 import "fmt"
 
 func main() {
-
-	fmt.Println("learn01")
+	pkgFunc()
+	fmt.Println("learn02")
 }
