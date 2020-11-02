@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="90b8a730-d6c3-49fb-9a81-bb636490123a" name="dev03">
+        <fileTransfer rootFolder="/home/liuyasong" accessType="SFTP" host="dev03.aplum-inc.com" port="22" sshConfigId="0ca4b757-31d0-4e61-8439-cf8728e5bfaf" sshConfig="liuyasong@dev03.aplum-inc.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,65 @@
+
+1. 模块变更:
+
+  Sender相关:
+
+    config.yml: "add new ***_sender"
+
+    api/router:
+
+      struct:
+        Engine: "add new  **Sender"
+
+      function:
+        initRouter: [58,64,74,80] #添加新的Sender需要的数据库、NewSender、Engine部分参数。数字代表行数(行数为参考值，请根据具体业务逻辑修改)
+        Stop: "add new stop goroutine"
+        NewEngine: "call NewMsgHandler(**)"
+
+    api/v1/send:
+
+      struct:
+        MsgHandler: "add new Sender"
+
+      function:
+        NewMsgHandler: "add new Sender parameter"
+        send: "add new classification data to the loop"
+
+    options/options:
+
+      struct:
+        options: "add new *Sender.Configs"
+
+
+  日志入库和信息推送相关:
+
+    model/model:  # 1. 添加新业务对应的api所需结构体（T开头），注意有需要添加对应的TableName()函数，用来生成对应的表
+                  # 2. 添加新业务发信息所需结构体(S开头)，注意有需要添加对应的TableName()函数，用来生成对应的表
+
+    model/repository:
+
+      function:
+        SaveLog: [30,38,75] # 行数为参考值，请根据具体业务逻辑修改
+
+      add_new_saveFunc(): "添加新的save函数"
+
+    internal/msgchannel: #在此文当下添加新业务推送逻辑，具体修改需仔细研究.......................
+
+
+2. 整体设计和预期进度:
+
+  1: "编写接口文档"    # 9.30 (1天)
+
+  2: "阅读api文档，确定推送所需要的字段；确定数据库所需要的的字段；解决一些细节问题"   # 9.28—9.29 (2天)
+
+  3. 根据新业务需求修改代码:    # 10.9—10.12 (4天)
+    3.1: "整理钉钉机器人和通知类业务推送部分相关逻辑，理清思路"
+    3.2: "根据相关思路，编写钉钉机器人和通知类业务推送部分代码"
+    3.4: "根据字段信息，编写整理日志入库部分的代码"
+    3.5: "根据业务需求，修改sender执行逻辑部分的代码"
+
+  4: "调试代码并和php组进行沟通"   #  10.13-10.14（2天）
+  5: "开始多级联调"   # 10.13-10.14 (1天)
+
+
+
+
