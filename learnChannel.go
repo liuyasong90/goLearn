@@ -48,7 +48,7 @@ func longestCommonPrefix(strs []string) string {
 //
 //}
 
-var urls = []string{"http://baidu.com", "http://sogo.com", "http://bing.com"}
+var urls = []string{"http://baidu.com", "http://sogo.com", "http://bing.com", ""}
 var result []string
 
 func main() {
