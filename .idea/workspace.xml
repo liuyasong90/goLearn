@@ -6,6 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -17,11 +26,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c28b5ea-5f89-4f42-9ded-1ce69b33e062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learnFlag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnNohup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strconv/learnStr.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnBuild/learnBuild01.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnBuild/learnBuild01.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnBuild/learnBuild02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnBuild/learnBuild02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnChannel.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnChannel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnChannel02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnChannel02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnContext.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnContext.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnContext02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnContext02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnData.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnData.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDefer.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnDefer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnError.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnError.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnGin/gin01.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGin/gin01.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnGin/learnGroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGin/learnGroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnGit.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnGunc.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGunc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnImport.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnImport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnInterface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnInterface02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnInterface02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnJson.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnJson.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnLog.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnLog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnMapstructure.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnMapstructure.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnMarshal.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnMarshal.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/new_service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/work/new_service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnPinic.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnPinic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnPointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnPointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnSprintf.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnSprintf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnType02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnType02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerarnType.go" beforeDir="false" afterPath="$PROJECT_DIR$/lerarnType.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moudle01/importTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/moudle01/importTest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01.go" beforeDir="false" afterPath="$PROJECT_DIR$/test01.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../../../Program Files/go1_14" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../Program Files/go1_14" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -54,8 +93,9 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/learnBuild" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -66,12 +106,12 @@
       <recent name="D:\work\centos7\www\go\goLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learnChannel.go">
-    <configuration name="go build goLearn (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build learnMod.go">
+    <configuration name="go build goLearn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learnSprintf.go" />
+      <filePath value="$PROJECT_DIR$/learnNohup.go" />
       <package value="goLearn" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -85,40 +125,39 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build learnDefer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build learnFlag.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learnDefer.go" />
+      <filePath value="$PROJECT_DIR$/learnFlag.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learnMod.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/mod/learnMod.go" />
       <package value="goLearn" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build learnMarshal.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build learnStr.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learnMarshal.go" />
-      <package value="goLearn" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build learnSprintf.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goLearn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learnSprintf.go" />
+      <filePath value="$PROJECT_DIR$/strconv/learnStr.go" />
       <package value="goLearn" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build learnMod.go" />
+        <item itemvalue="Go Build.go build goLearn" />
+        <item itemvalue="Go Build.go build learnFlag.go" />
+        <item itemvalue="Go Build.go build learnStr.go" />
         <item itemvalue="Go Build.go build learnChannel.go" />
-        <item itemvalue="Go Build.go build goLearn (2)" />
-        <item itemvalue="Go Build.go build learnDefer.go" />
-        <item itemvalue="Go Build.go build learnSprintf.go" />
-        <item itemvalue="Go Build.go build learnMarshal.go" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +191,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="add" />
+    <MESSAGE value="1" />
+    <MESSAGE value="13" />
+    <option name="LAST_COMMIT_MESSAGE" value="13" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -190,34 +232,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="271" y="170" width="658" height="508" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599883366509" />
-    <state x="568" y="166" key="FileChooserDialogImpl" timestamp="1599891191358">
+    <state x="568" y="166" key="FileChooserDialogImpl" timestamp="1607067075556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="568" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599891191358" />
-    <state width="746" height="225" key="GridCell.Tab.0.bottom" timestamp="1604203298390">
+    <state x="568" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607067075556" />
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1606468652616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602338014143" />
     <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601184588269" />
-    <state width="746" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604203298390" />
-    <state width="746" height="225" key="GridCell.Tab.0.center" timestamp="1604203298361">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606468652616" />
+    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1606468652614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602338014141" />
     <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601184588267" />
-    <state width="746" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604203298361" />
-    <state width="746" height="225" key="GridCell.Tab.0.left" timestamp="1604203298337">
+    <state width="1493" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606468652614" />
+    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1606468652613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602338014141" />
     <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601184588267" />
-    <state width="746" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604203298337" />
-    <state width="746" height="225" key="GridCell.Tab.0.right" timestamp="1604203298375">
+    <state width="1493" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606468652613" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1606468652615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602338014141" />
     <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601184588268" />
-    <state width="746" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604203298375" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606468652615" />
     <state width="746" height="225" key="GridCell.Tab.1.bottom" timestamp="1604203298441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,11 +276,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="746" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604203298436" />
-    <state x="270" y="56" key="SettingsEditor" timestamp="1602313563632">
+    <state x="270" y="56" key="SettingsEditor" timestamp="1606963833304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1602313563632" />
-    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600137959141" />
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606963833304" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606964775033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606964775033" />
     <state x="2204" y="-11" width="1277" height="705" maximized="true" key="dock-window-1" timestamp="1601005958590">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -252,10 +298,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="636" y="303" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1603720568026" />
-    <state x="2443" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1601277888133">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="418" y="286" width="672" height="538" key="search.everywhere.popup" timestamp="1606293413520">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2443" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601277888133" />
+    <state x="418" y="286" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606293413520" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -264,6 +311,11 @@
           <url>file://$PROJECT_DIR$/lerarnType.go</url>
           <line>29</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/learnChannel.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

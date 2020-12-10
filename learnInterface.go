@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/gohouse/gorose"
+)
 
 type inter01 interface {
 	Method01(int)
