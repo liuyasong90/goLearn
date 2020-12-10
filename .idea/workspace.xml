@@ -26,41 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c28b5ea-5f89-4f42-9ded-1ce69b33e062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learnFlag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnNohup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strconv/learnStr.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnBuild/learnBuild01.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnBuild/learnBuild01.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnBuild/learnBuild02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnBuild/learnBuild02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnChannel.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnChannel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnChannel02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnChannel02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnContext.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnContext.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnContext02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnContext02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnData.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnData.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDefer.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnDefer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnError.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnError.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnGin/gin01.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGin/gin01.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnGin/learnGroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGin/learnGroup.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnGit.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnGunc.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnGunc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnImport.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnImport.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnInterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnInterface02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnInterface02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnJson.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnJson.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnLog.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnLog.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnMapstructure.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnMapstructure.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnMarshal.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnMarshal.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnPinic.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnPinic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnPointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnPointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnSprintf.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnSprintf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnType02.go" beforeDir="false" afterPath="$PROJECT_DIR$/learnType02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lerarnType.go" beforeDir="false" afterPath="$PROJECT_DIR$/lerarnType.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moudle01/importTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/moudle01/importTest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test01.go" beforeDir="false" afterPath="$PROJECT_DIR$/test01.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
