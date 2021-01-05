@@ -1,5 +1,9 @@
 package main
 
-type fun1 interface {
-	Test01(int) error
+import (
+	"github.com/hyperledger/goLearn/learnGin"
+)
+
+func main() {
+	learnGin.TTT()
 }

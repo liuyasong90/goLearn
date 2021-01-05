@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gohouse/gorose"
+	"goLearn/learnGin"
 )
 
 type inter01 interface {
@@ -34,10 +34,19 @@ func fanfa1(a inter01, i int) {
 	a.Method02("333", i)
 }
 
+type CC struct {
+}
+
+func (c *CC) DDD() string {
+	return "33"
+}
+
+func EE() learnGin.Inter01 {
+	println("CC")
+	return CC
+}
+
 func main() {
 
-	t3 := TestInter03{}
-
-	fanfa1(t3, 1)
-
+	EE()
 }
