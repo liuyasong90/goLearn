@@ -1,12 +1,18 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
+
+type Duck interface {
+	Quack()
+}
+
+type Cat struct{}
+
+func (c *Cat) Quack() {
+	fmt.Println("meow")
+}
 
 func main() {
-	s := "BrainWu"
-	if v, ok := interface{}(s).(string); ok {
-		fmt.Println(v)
-	}
+	var c Duck = Cat{}
+	c.Quack()
 }

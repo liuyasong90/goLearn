@@ -5,7 +5,7 @@
       <paths name="dev03">
         <serverdata>
           <mappings>
-            <mapping deploy="/goLearn" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
